@@ -1,0 +1,30 @@
+_id: req_wrk_d9a2a4be07fc47db9126f9fa87f7df9ad99984d0
+type: Request
+parentId: wrk_d9a2a4be07fc47db9126f9fa87f7df9a
+modified: 1654781917495
+created: 1654781917495
+url: "{{ base_url }}/api/course/{{ course_id }}"
+name: /api/course/{course_id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "course_name": "Maths1",
+      "course_code": "MA101",
+      "course_description": "Course Description Example"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1654781917495
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
