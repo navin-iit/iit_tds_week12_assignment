@@ -1,0 +1,21 @@
+_id: req_wrk_d9a2a4be07fc47db9126f9fa87f7df9a46de9ca0
+type: Request
+parentId: wrk_d9a2a4be07fc47db9126f9fa87f7df9a
+modified: 1654781917493
+created: 1654781917493
+url: "{{ base_url }}/api/course/{{ course_id }}"
+name: /api/course/{course_id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1654781917493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

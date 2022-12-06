@@ -1,0 +1,30 @@
+_id: req_wrk_d9a2a4be07fc47db9126f9fa87f7df9a54310e51
+type: Request
+parentId: wrk_d9a2a4be07fc47db9126f9fa87f7df9a
+modified: 1654781917478
+created: 1654781917478
+url: "{{ base_url }}/api/student"
+name: /api/student
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "first_name": "Narendra",
+      "last_name": "Mishra",
+      "roll_number": "MA19M010"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1654781917478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
